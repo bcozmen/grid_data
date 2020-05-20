@@ -98,7 +98,7 @@ _, _, empFCs, _ = load_matrices(return_index = 0)
 
 fnames = glob.glob("*/")
 
-corr_mat = np.ones(shape=(10,11,41,41,5,6))*-2
+corr_mat = np.ones(shape=(11,10,41,41,5,6))*-2
 
 
 for file in fnames:
